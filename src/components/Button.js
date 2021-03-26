@@ -17,7 +17,7 @@ export const Button = ({
 		: STYLES[0]; // if no buttonStyle is declared the diffult style will be the first value in the STYLES arr
 	const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 	return (
-		<Link to=' /sing-up' className='btn-mobile'>
+		<Link to=' /signup' className='btn-mobile'>
 			<button
 				className={`btn ${checkButtonStyle} ${checkButtonSize}`}
 				onClick={onClick}
